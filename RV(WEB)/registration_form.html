@@ -1,0 +1,72 @@
+<htmml>
+    <head>
+        <title></title>
+    </head>
+    <body bgcolor="yellow">
+        <h1 align="center"><u>Registration Form</u></h1>
+        <form>
+            <ol>
+                <li><label>Enter the name:</label><br>
+                    <input type="text" placeholder="candidate name"><hr>
+                </li>
+                <li><label>Enter the contact number:</label><br> 
+                    <input type="text" placeholder="phone number"><hr>
+                </li>
+                <li><label>Enter the number of people in your family:</label><br>
+                    <input type="number" name="value" min="1" max="10"><hr>
+                </li>
+                <li><label>Enter the name of father:</label><br>
+                    <input type="text"><hr>
+                </li>       
+                <li>Enter the father occupation:<br>
+                    <select>
+                        <option>Select</option>
+                        <option>Engineer</option>
+                        <option>Doctor</option>
+                        <option>Government employee</option>
+                        <option>Private employee</option>
+                        <option>Self business</option>
+                    </select><hr>
+                </li>
+                <li><label>Enter the mother name:</label><br> 
+                    <input type="text"><hr>
+                </li>
+                <li>Enter the mother occupation:<br>
+                    <input list="occupation">
+                    <datalist id="occupation">
+                        <option>Select</option>
+                        <option>Engineer</option>
+                        <option>Doctor</option>
+                        <option>Government employee</option>
+                        <option>Private employee</option>
+                        <option>Self business</option>
+                        <option>housewife</option>
+                    </datalist><hr>
+                </li>
+                <li>provide a photo of candidate:<br>
+                     <input type="file" value="file"><hr>
+                </li>
+                <li>Documents you have:<br>
+                    <input type="checkbox" value="caste certificate">Caste certificate<br>
+                    <input type="checkbox" value="aadhar">Aadhar<br>
+                    <input type="checkbox" value="pan card">Pan card<br>
+                    <input type="checkbox" value="perious year markscard">Previous year marks card<hr>
+                </li>
+                <li><label>Enter the address</label>
+                    <textarea rows="3" placeholder="Enter your address"></textarea><hr>
+                </li>
+                <li>Enter the telephone number:<br>
+                    <input type="tel" name="telephone"><br><hr>
+                </li>
+                <li>Search the file:
+                    <input type="url" name="file">
+                    <input type="submit" name="file" value="search"><br>
+                </li>
+                <li>Image:
+                    <input type="image" src="./airbrush.jpg" width="50" href="./semantic_tag.html">
+                </li>
+            </ol>
+            <button value="submit" name="button" onclick="alert('Thank you for your cooperation')">Submit</button> &#160 &#160 &nbsp <input type="reset" value="Reset"> 
+        </form>
+    </body>
+</htmml>
